@@ -40,6 +40,7 @@ span {
   line-height: 32px;
   color: white;
   padding-bottom: 44px;
+  width: 480px;
 }
 .top__form_button {
   width: 234px;
@@ -60,15 +61,19 @@ span {
 .options {
   background-color: #000915;
   min-height: 556px;
+}
+.options__wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
   justify-content: center;
   align-items: center;
+  padding-top: 128px;
+  padding-bottom: 128px;
 }
 .options__item {
   position: relative;
-  width: 379px;
+  min-width: 379px;
   height: 300px;
 }
 .options__item:hover {
@@ -88,4 +93,43 @@ span {
   position: absolute;
   left: 32px;
   bottom: 32px;
+}
+
+@media (max-width: 767px) {
+  center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    min-height: 835px;
+    background-image: url(img/topbgphone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  .top__content {
+    padding-top: 238px;
+    width: 343px;
+  }
+  .top__content_title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .top__content_caption {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 343px;
+    text-align: center;
+  }
+  .top__form {
+    display: flex;
+    justify-content: center;
+  }
+  .options__item {
+    min-width: 343px;
+  }
 }/*# sourceMappingURL=style.css.map */
