@@ -97,6 +97,37 @@ span {
     }
 }
 
+.first-game {
+    min-height: 800px;
+    background-color: #000915;
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 233px;
+    }
+    &__description {
+        max-width: 584px;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+    &__caption {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
 @media (max-width: 767px) {
     center {
         padding-left: 16px;
@@ -136,6 +167,35 @@ span {
     .options {
         &__item {
             min-width: 343px;
+        }
+    }
+
+    .first-game {
+        &__content {
+            padding-top: 51px;
+            justify-content: center;
+        }
+        &__description {
+            text-align: center;
+        }
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+            &_symbol {
+                display: none;
+            }
+        }
+        &__caption {
+            font-size: 14px;
+            line-height: 22px;
+            width: 343px;
+        }
+        &__img-block {
+            padding-top: 64px;
+            &_img {
+                width: 343px;
+                height: 236px;
+            }
         }
     }
 }
