@@ -97,7 +97,7 @@ span {
     }
 }
 
-.first-game {
+.game {
     min-height: 800px;
     background-color: #000915;
     &__content {
@@ -170,7 +170,7 @@ span {
         }
     }
 
-    .first-game {
+    .game {
         &__content {
             padding-top: 51px;
             justify-content: center;
@@ -192,6 +192,9 @@ span {
         }
         &__img-block {
             padding-top: 64px;
+            &_second {
+                order: 1;
+            }
             &_img {
                 width: 343px;
                 height: 236px;
@@ -199,3 +202,4 @@ span {
         }
     }
 }
+
