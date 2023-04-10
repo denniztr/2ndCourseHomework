@@ -23,7 +23,7 @@
     <div class="options">
         <div class="options__wrapper">
             <div class="options__item">
-                <a href="#">
+                <a onclick="gameMonthNumber()" href="#">
                     <img width="100%" class="options__item_img" src="img/game1.jpg" alt="game">
                 </a>
                 <h3 class="options__item_title">Игра 1</h3>
@@ -47,8 +47,8 @@
             <div class="game__description">
                 <h2 class="game__title">Времена года <span class="game__title_symbol">!</span></h2>
                 <p class="game__caption">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-                <form class="top__form" action="submit">
-                    <button class="top__form_button">Играть!</button>
+                <form class="top__form" action="#">
+                    <button onclick="gameMonthNumber()" class="top__form_button">Играть!</button>
                 </form>
             </div>
             <div class="game__img-block">
@@ -70,9 +70,23 @@
             </div>
         </div>
     </div>
+    <div class="game game__riddles center">
+        <div class="game__riddles_description">
+            <h2 class="game__title">Игра в загадки</h2>
+            <p class="game__caption game__riddles_caption">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <form class="top__form" action="submit">
+                <button class="top__form_button">Играть!</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="footer__text">Все права защищены</p>
+    </footer>
     <script src="script.js"></script>
     <script src="hw-2.js"></script>
     <script src="hw-3.js"></script>
     <script src="hw-4.js"></script>
+    <script src="hw-5.js"></script>
+    <!-- <script src="hw-6.js"></script> -->
 </body>
 </html>
