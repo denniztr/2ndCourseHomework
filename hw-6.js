@@ -78,27 +78,27 @@
 
 // Задание 11
 
-// const array = [2, 4, 6, 8, 10];
-
-// let result = array.map(function(i) {
-//     return Math.pow(i, 2)
-// })
-// console.log(result);
+// const getNum = () => {
+//     let amount = array.map(item => Math.pow(item, 2));
+//     return amount;
+// }
+// console.log(getNum(array = [2, 4, 6, 8, 10]));
 
 // Задание 12
 
-// const getLengthWords = ['слово', '', 'слог', 'длинное предложение', 'буква'];
-
-// let result = getLengthWords.map(function(symbols) {
-//     return symbols.length;
-// })
-// console.log(result);
+// const getLengthWords = (words) => {
+//     const arr = [];
+//     for (let word of words) {
+//         arr.push(word.length);
+//     }
+//     return arr;
+// }
+// console.log(getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']));
 
 // Задание 13
 
-// const array = [1, -2, 3, -4, -5, 6, 10, -15];
-
-// let result = array.filter(function(item) {
-//     return (item <0)
-// })
-// console.log(result);
+// const getNumbers = () => {
+//     let numbers = array.filter(item => item < 0);
+//     return numbers;
+// }
+// console.log(getNumbers(array = [1, -2, 3, -4, -5, 6, 10, -15]));
