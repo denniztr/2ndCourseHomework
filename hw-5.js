@@ -12,18 +12,16 @@
 // min(6, 6)
 
 
-// 2
+// 2    
 
-// function num() {
-//     let num = Number(prompt('Введите пожалуйста число'));
-//     if (num % 2 === 0) {
-//         String(alert(`Число ${num} чётное`));
+// function num(inputNum) {
+//     if (inputNum % 2 === 0) {
+//         return `Число чётное`;
 //     } else {
-//         String(alert(`Число ${num} нечётное`));
+//         return `Число нечётное`;
 //     } 
 // }
-// num()
-
+// console.log(num(8));
 
 // 3
 // 3.1
@@ -41,13 +39,13 @@
 
 // function num(a) {
 //     let num = Math.pow(a, 2);
-//     return console.log(num);
+//     return num;
 // }
-// num(5)
-// num(10)
-// num(20)
-// num(50)
-
+// console.log(num(5));
+// console.log(num(4));
+// console.log(num(6));
+// console.log(num(8));
+// console.log(num(10));
 
 // 4
 
