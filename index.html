@@ -29,7 +29,7 @@
                 <h3 class="options__item_title">Игра 1</h3>
             </div>
             <div class="options__item">
-                <a href="#">
+                <a onclick="rememberWords(array)" href="#">
                     <img class="options__item_img" src="img/game2.jpg" alt="game">
                 </a>
                 <h3 class="options__item_title">Игра 2</h3>
@@ -64,8 +64,8 @@
             <div class="game__description">
                 <h2 class="game__title">Запомни слова</h2>
                 <p class="game__caption">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
-                <form class="top__form" action="submit">
-                    <button class="top__form_button">Играть!</button>
+                <form class="top__form" action="#">
+                    <button onclick="rememberWords(array)" class="top__form_button">Играть!</button>
                 </form>
             </div>
         </div>
@@ -88,5 +88,6 @@
     <script src="hw-4.js"></script>
     <script src="hw-5.js"></script>
     <script src="hw-6.js"></script>
+    <script src="hw-7.js"></script>
 </body>
 </html>
